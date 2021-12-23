@@ -1,0 +1,28 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "todo list using node js native",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/class/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aces96/TODO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aces96/TODO/issues"
+  },
+  "homepage": "https://github.com/aces96/TODO#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "ejs": "^3.1.6",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "query-string": "^7.0.1",
+    "sequelize": "^6.12.0-beta.3"
+  }
+}
